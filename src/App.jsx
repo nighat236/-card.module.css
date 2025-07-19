@@ -1,14 +1,18 @@
-
-// import './Ap
-
 import React from 'react';
-import UniversityList from './components/UniversityList';
+import CurrentDate from './CurrentDate';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <UniversityList />
-    </div>
+    <>
+      <h1 style={{color:'chocolate'}}>Learn React (with) Shahid Naeem </h1>
+
+ <CurrentDate/>    
+     
+</>
+    
   );
 }
 
