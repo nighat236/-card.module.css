@@ -1,10 +1,10 @@
 import React from 'react';
-import Flow from './components/Flow';  // yahan sahi path lagana zaroori hai
+import TestTailwind from './TestTailwind';
 
 function App() {
   return (
-    <div>
-      <Flow />
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <TestTailwind />
     </div>
   );
 }
